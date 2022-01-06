@@ -1,0 +1,87 @@
+.form-container {
+    background: rgb(0, 139, 204);
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.title-form {
+    font-size: 2rem;
+}
+
+.todo-input {
+    padding: .7rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.todo-button {
+    border: none;
+    cursor: pointer;
+    padding: .7rem;
+    background-color: rgb(8, 106, 151);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(90, 153, 182);
+    padding: 0 1.2rem;
+    margin: 1rem;
+    /* border: 1px solid rgb(8, 106, 151); */
+}
+
+.todo-row:hover {
+    background-color: rgb(128, 184, 209);
+}
+
+.todo-row h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.icons svg {
+    padding: .5rem;
+    font-size: 1.3rem;
+}
+
+.delete-icon {
+    color: rgb(139, 40, 40);
+}
+
+.edit-icon {
+    color: rgb(24, 102, 24);
+}
+
+.delete-icon:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.edit-icon:hover {
+    cursor: pointer;
+    color: rgb(25, 177, 25);
+}
+
+.hr {
+    min-width: 150%;
+    margin: 0 auto;
+}
+
+.complete {
+    text-decoration: line-through;
+    text-decoration-color: #000;
+}
